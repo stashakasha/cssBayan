@@ -14,22 +14,29 @@ html {
     width: 80%;
     height: 100%;
     margin: 50px auto;
-    background-color: #262626;
 }
 .accordion-item {
     padding: 50px;
+    border-top: 1px solid #9d9d9d;
 }
 .accordion-title {
     font-size: 48px;
+    display: block;
+    cursor: pointer;
 }
 .accordion-input {
+    visibility: hidden;
+}
+.accordion-input:checked + .accordion-img {
+    display: block;
 }
 .accordion-img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: none;
     padding-top: 50px;
+    width: 600px;
+    margin: 0 auto;
 }
 .accordion-img img {
-    width: 600px;
+    width: 100%;
+    
 }
