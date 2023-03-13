@@ -1,3 +1,35 @@
-body {
+html {
     font-family: 'Sono', sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+.title {
+    font-size: 82px;
+    font-weight: 700;
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+}
+.accordion {
+    width: 80%;
+    height: 100%;
+    margin: 50px auto;
+    background-color: #262626;
+}
+.accordion-item {
+    padding: 50px;
+}
+.accordion-title {
+    font-size: 48px;
+}
+.accordion-input {
+}
+.accordion-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.accordion-img img {
+    width: 600px;
 }
